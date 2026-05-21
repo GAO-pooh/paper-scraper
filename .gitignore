@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cookies — never commit these (security risk)
+cookies.json
+cookies*.json
+*.cookie
+
+# Scraper output
+results/
+informs_result/
+pdfs/
+*.csv
+*.xlsx
+*.json
+
+# Chrome debug temp files
+/tmp/chrome_debug.log
+/tmp/chrome_informs.log
+
+# Claude Code internal files
+.claude/
+session-summary-*.md
+
+# Unrelated project files
+gen_outlines.py
+gen_outlines.js
+大纲*.docx
+文献抓取/
+paperCrawler/
+informs result/
