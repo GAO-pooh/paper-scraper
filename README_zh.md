@@ -6,7 +6,14 @@
 
 # 学术论文抓取工具
 
-针对 **ScienceDirect** 和 **INFORMS PubsOnLine** 的自动化爬虫——支持按关键词、作者、期刊搜索，并通过机构账号批量下载 PDF。
+> 针对 **ScienceDirect** 和 **INFORMS PubsOnLine** 的自动化爬虫——
+> 支持按关键词、作者、期刊搜索，并通过机构账号批量下载 PDF。
+
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Python](https://img.shields.io/badge/Python-3.8+-green)
+![Platform](https://img.shields.io/badge/Platform-macOS-lightgrey)
+![ScienceDirect](https://img.shields.io/badge/ScienceDirect-supported-orange)
+![INFORMS](https://img.shields.io/badge/INFORMS-supported-orange)
 
 ---
 

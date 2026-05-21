@@ -6,7 +6,15 @@
 
 # Academic Paper Scraper
 
-Automated scrapers for **ScienceDirect** and **INFORMS PubsOnLine** — search papers by keyword, author, or journal, and batch-download PDFs using your institutional access.
+> Automated scrapers for **ScienceDirect** and **INFORMS PubsOnLine** —
+> search papers by keyword, author, or journal, and batch-download PDFs
+> using your institutional access.
+
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Python](https://img.shields.io/badge/Python-3.8+-green)
+![Platform](https://img.shields.io/badge/Platform-macOS-lightgrey)
+![ScienceDirect](https://img.shields.io/badge/ScienceDirect-supported-orange)
+![INFORMS](https://img.shields.io/badge/INFORMS-supported-orange)
 
 ---
 
