@@ -33,10 +33,28 @@ Files ending in `_en.py` are full English-interface versions; the others are Chi
 
 ---
 
-## Requirements
+## Installation
+
+**Step 1 — Install dependencies**
 
 ```bash
-pip install curl_cffi browser-cookie3 beautifulsoup4 lxml openpyxl websocket-client
+pip install curl_cffi websocket-client browser-cookie3 openpyxl
+```
+
+For INFORMS scraper, also install:
+
+```bash
+pip install beautifulsoup4 lxml
+```
+
+**Step 2 — Run**
+
+```bash
+# ScienceDirect (interactive wizard)
+python3 sd_scraper_en.py
+
+# INFORMS (interactive wizard)
+python3 informs_scraper_en.py
 ```
 
 > **macOS only** (Chrome path is hardcoded to `/Applications/Google Chrome.app`).  

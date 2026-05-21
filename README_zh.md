@@ -33,10 +33,28 @@
 
 ---
 
-## 安装依赖
+## 安装
+
+**第一步 — 安装依赖**
 
 ```bash
-pip install curl_cffi browser-cookie3 beautifulsoup4 lxml openpyxl websocket-client
+pip install curl_cffi websocket-client browser-cookie3 openpyxl
+```
+
+如需使用 INFORMS 爬虫，额外安装：
+
+```bash
+pip install beautifulsoup4 lxml
+```
+
+**第二步 — 运行**
+
+```bash
+# ScienceDirect（交互式向导）
+python3 sd_scraper.py
+
+# INFORMS（交互式向导）
+python3 informs_scraper.py
 ```
 
 > **目前仅支持 macOS**（Chrome 路径硬编码为 `/Applications/Google Chrome.app`）。  
